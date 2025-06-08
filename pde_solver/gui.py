@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import (
     QVBoxLayout, QLabel, QSlider, QPushButton, QDoubleSpinBox, QComboBox, QFileDialog, QSpinBox
 )
 from PyQt5.QtCore import Qt, QTimer, QPointF
-from PyQt5.QtGui import QPainter, QColor
+from PyQt5.QtGui import QPainter, QColor, QLinearGradient
 from OpenGL.GL import *
 from OpenGL.GLU import *
 from scipy.sparse import diags, identity, kron, csc_matrix
